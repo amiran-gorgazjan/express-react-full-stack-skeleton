@@ -5,9 +5,9 @@ A full stack skeleton for a single-server full stack application that uses React
 ## Tech
 
 1. Node.js
-2. Express
-3. React
-4. Webpack
+1. Express
+1. Webpack
+1. React (with JSX using Babel)
 
 ## Overview
 
