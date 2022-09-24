@@ -1,0 +1,37 @@
+{
+  "name": "express-react-full-stack-skeleton",
+  "version": "1.0.0",
+  "description": "A full stack starting point for a single-server full stack application that uses React and Express",
+  "main": "src/server/index.js",
+  "scripts": {
+    "watch": "webpack --watch --mode=development",
+    "build": "webpack --mode=production",
+    "dev": "nodemon src/server/index.js",
+    "start": "node src/server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amiran-gorgazjan/express-react-full-stack-skeleton.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amiran-gorgazjan/express-react-full-stack-skeleton/issues"
+  },
+  "homepage": "https://github.com/amiran-gorgazjan/express-react-full-stack-skeleton#readme",
+  "devDependencies": {
+    "@babel/preset-react": "^7.18.6",
+    "nodemon": "^2.0.20",
+    "react": "^18.2.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.19.1",
+    "babel-loader": "^8.2.5",
+    "express": "^4.18.1",
+    "react-dom": "^18.2.0"
+  }
+}

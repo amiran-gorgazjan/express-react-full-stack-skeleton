@@ -78,9 +78,8 @@ typings/
 # Next.js build output
 .next
 
-# Nuxt.js build / generate output
 .nuxt
-dist
+dist/bundle.js
 
 # Gatsby files
 .cache/
